@@ -4,8 +4,7 @@
 
 %% Part1: Preceptron
 nRep = 1000; % number of replicates
-nTrain = 100; % number of training data
-nTest = 1000;
+nTrain = 10; % number of training data
 
 E_train = 0;
 E_test = 0;
@@ -14,21 +13,16 @@ for i = 1:nRep
     [X, y, w_f] = mkdata(nTrain);
     [w_g, iter, train_error] = perceptron(X, y);
     % Compute training, testing error
-    E_train = E_train + (train_error)/nTrain;
+    E_train = E_train + train_error;
     % gen test-data
-    [X_test, y_test] = mktestdata(nTest, w_f);
-    X_test_predict = sign(w_g' * X_test); % 1 by N
-    E_test = E_test + sum(X_test_predict ~= y_test)/nTest;
+    [X_test, y_test, w_
     
     % Sum up number of iterations
     avgIter = avgIter + iter;
 end
 
-E_train = E_train / nRep;
-E_test = E_test / nRep;
-avgIter = avgIter / nRep;
-fprintf('E_train is %f, E_test is %f.\n', E_train, E_test);
-fprintf('Average number of iterations is %d.\n', avgIter);
+%fprintf('E_train is %f, E_test is %f.\n', E_train, E_test);
+%fprintf('Average number of iterations is %d.\n', avgIter);
 plotdata(X, y, w_f, w_g, 'Pecertron');
 
 %% Part2: Preceptron: Non-linearly separable case
@@ -38,7 +32,7 @@ nTrain = 100; % number of training data
 
 
 %% Part3: Linear Regression
-nRep = 1; % number of replicates
+nRep = 1000; % number of replicates
 nTrain = 100; % number of training data
 
 for i = 1:nRep

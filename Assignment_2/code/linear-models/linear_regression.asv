@@ -8,10 +8,9 @@ function w = linear_regression(X, y)
 %
 
 % YOUR CODE HERE
-% for 2 class
 % use normal equation
-N = size(X,2);
-X = [ones(1,N); X]';  %design matrix
+N = size(X,2
+X = [ones(1,N) X]';  %design matrix
 w = pinv((X'*X))*X'*y';
 
 end

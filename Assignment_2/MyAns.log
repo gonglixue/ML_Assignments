@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  21 OCT 2017 13:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  21 OCT 2017 16:36
 entering extended mode
 **MyAns.tex
 
@@ -438,18 +438,18 @@ Package tocloft Info: The document has section divisions on input line 43.
 )
 (F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
 2\MyAns.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -503,31 +503,39 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 62.
+(Font)              <12> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 62.
+(Font)              <8> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 62.
+(Font)              <6> on input line 63.
+ <./Perceptron_nonlinear.jpg, id=1, 562.1pt x 421.575pt>
+File: ./Perceptron_nonlinear.jpg Graphic file (type jpg)
+
+<use ./Perceptron_nonlinear.jpg>
+Package pdftex.def Info: ./Perceptron_nonlinear.jpg used on input line 80.
+(pdftex.def)             Requested size: 192.72394pt x 144.54pt.
  [1
 
-{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
+{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <F:/gonglixu
+e/curriculum/MachineLearning/Assignments/ML_Assignments/Assignment_2/Perceptron
+_nonlinear.jpg>]
 (F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
 2\MyAns.aux) ) 
 Here is how much of TeX's memory you used:
- 3759 strings out of 495354
- 54493 string characters out of 3183858
- 116241 words of memory out of 3000000
- 6899 multiletter control sequences out of 15000+200000
+ 3765 strings out of 495354
+ 54644 string characters out of 3183858
+ 117241 words of memory out of 3000000
+ 6903 multiletter control sequences out of 15000+200000
  9089 words of font info for 32 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,6n,43p,217b,182s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,6n,43p,401b,182s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss1
 2.pfb>
-Output written on MyAns.pdf (1 page, 46446 bytes).
+Output written on MyAns.pdf (1 page, 86624 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

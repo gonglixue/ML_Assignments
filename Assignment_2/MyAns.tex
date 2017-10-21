@@ -29,6 +29,7 @@
 \usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
 \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
 \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{graphicx}
 % These packages are all incorporated in the memoir class to one degree or another...
 
 %%% HEADERS & FOOTERS
@@ -63,10 +64,22 @@
 
 \section{A Walk Through Linear Models}
 
-Your text goes here.
+\subsection{Perceptron}
 
-\subsection{A subsection}
 
-More text.
+(i) I limit the maximum times of iteration( in perceptron.m) within 1000 to prevent the situation that the dataset is not linearly separable. And each iteration, I generate a large dataset with sizeof 1000 to estimate test error.
+When nTrain=10, the training error rate is 0.0024, and the test error rate is 0.1437. 
+When nTrain = 100, the training error rate is 0.000010, and the test error rate is 0.0180. 
+
+(ii) When nTrain=10, the average number of iterations is 284.
+When nTrain = 100, the average number of iterations is 114.
+
+(iii) When the training data is not exactly linearly separable, we can not guarantee that our model can classify all the training data correctly. And due to the limitation of the maximum times of iteration(1000), the model we trained may be not the optimal. As the following figure, when the training data is not strictly linearly separable, the algorithm can not give a optimal solution.
+
+\begin{center}
+\includegraphics[height=2in]{./Perceptron_nonlinear.jpg}
+\end{center}
+
+\subsection{Linear Regression}
 
 \end{document}
