@@ -9,5 +9,12 @@ function w = ridge(X, y, lambda)
 %
 
 % YOUR CODE HERE
+[P, N] = size(X);
+X_design = [ones(1, N); X]';
+
+I = eye(P+1);
+I(1,1) = 0;
+
+w = pinv( X_design'*X_design + lambda*I ) * X_design' * y';
 
 end

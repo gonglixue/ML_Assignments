@@ -58,25 +58,17 @@ y_test_reg = sign(w_with_reg' * [ones(1,N_test); X_test]);
 test_error_rate_reg = sum(y_test_reg ~= y_test)/N_test
 
 %% Logistic
-load('digit_train', 'X', 'y');
-
-% Do feature normalization
-X = zscore(X,0,2);
-N = size(X,2);
-% Do LOOCV
-lambdas = [1e-3, 1e-2, 1e-1, 0, 1, 1e1, 1e2, 1e3];
-lambda = 0
+lambda = lambdas(1);
 Min_Error = N;
 
 for i=1:length(lambdas)
     E_val = 0;
-    i
     for j=1:N
         X_ = X; 
         X_(:,j) = [];
         y_ = y; % take point j out of X(P by N)
         y_(:,j) = [];
-        w = logistic_r(X_, y_, lambdas(i));
+        w = logistic_r(X_, y_, lambda(i));
         
         x_pick = [1; X(:,j)];
         y_pick = 1 ./ (1+exp(-1*x_pick'*w)); 
@@ -98,20 +90,7 @@ w_without_reg = logistic(X, y);
 
 %training error
 y_train_noreg = sigmoid(w_without_reg, [ones(1,N);X]');
-train_error_noreg = sum(y_train_noreg' ~= y)/N;
-y_train_reg = sigmoid(w_with_reg, [ones(1,N);X]');
-train_error_reg = sum(y_train_reg' ~= y)/N;
 
-load('digit_test', 'X_test', 'y_test');
-N_test = size(X_test, 2);
-% Do feature normalization
-X_test = zscore(X_test, 0, 2);
-
-%testing error
-y_test_noreg = sigmoid(w_without_reg, [ones(1,N_test); X_test]');
-test_error_noreg = sum(y_test_noreg' ~= y_test)/N_test;
-y_test_reg = sigmoid(w_with_reg, [ones(1,N_test); X_test]');
-test_error_reg = sum(y_test_reg' ~= y_test)/N_test;
         
 
 %% SVM with slack variable
