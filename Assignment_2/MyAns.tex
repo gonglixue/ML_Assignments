@@ -66,7 +66,6 @@
 
 \subsection{Perceptron}
 
-
 (i) I limit the maximum times of iteration( in perceptron.m) within 1000 to prevent the situation that the dataset is not linearly separable. And each iteration, I generate a large dataset with sizeof 1000 to estimate test error.
 When nTrain=10, the training error rate is 0.0024, and the test error rate is 0.1437. 
 When nTrain = 100, the training error rate is 0.000010, and the test error rate is 0.0180. 
@@ -80,6 +79,61 @@ When nTrain = 100, the average number of iterations is 114.
 \includegraphics[height=2in]{./Perceptron_nonlinear.jpg}
 \end{center}
 
+
+
+
 \subsection{Linear Regression}
+
+(i) the the trainning set is 100, trainning error rate is 0.0384, and the test error rate is 0.04809. The decision boundary is shown below.
+
+\begin{center}
+\includegraphics[height=2in]{./LinearReg_i.jpg}
+\end{center}
+
+(ii) When the dataset is not linearly separable, the trainning error rate is 0.1375, and the test error rate is 0.0620. The decision boundary is shown below.
+
+\begin{center}
+\includegraphics[height=2in]{./LinearReg_ii.jpg}
+\end{center}
+
+(iii) For the dataset \emph{poly\_train.mat}, the trainint error rate is 0.4900, the testing error rate is 0.5496.
+
+(iv) After transforming the input data, the training error rate is 0.0500, the testing error rate is 0.0660.
+
+\subsection{Logistic Regression}
+
+I use following parameters in \emph{logistic.m}:
+
+$learning\_rate = 0.02$ and 
+$max\_iter = 5000$
+
+(i) If the size of training set is 100, the trainning error rate is 0.0191, and the testing error rate is 0.0292. The decision boundary is shown below.
+
+\begin{center}
+\includegraphics[height=2in]{./Logistic_i.jpg}
+\end{center}
+
+(ii) When the training data is not linearly separable, the training error rate is 0.1284, and the testing error rate is 0.0493. The decision boundary is shown below.
+
+\begin{center}
+\includegraphics[height=2in]{./Logistic_ii.jpg}
+\end{center}
+
+
+\subsection{SVM}
+
+(i) If the size of training set is 30, the training error rate is 0.00, and the tesing error rate is 0.0376. The decision boundary is shown below.
+
+\begin{center}
+\includegraphics[height=2in]{./SVM_i.jpg}
+\end{center}
+
+(ii) If the size of training set is 100, the training error rate is 0.00, and the tesing error rate is 0.0111. The decision boundary is shown below.
+
+\begin{center}
+\includegraphics[height=2in]{./SVM_ii.jpg}
+\end{center} 
+
+(iii) For the cane nTrain = 100, the average number of support vectors is 2.8440
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  21 OCT 2017 16:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  22 OCT 2017 16:38
 entering extended mode
 **MyAns.tex
 
@@ -512,30 +512,75 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: ./Perceptron_nonlinear.jpg Graphic file (type jpg)
 
 <use ./Perceptron_nonlinear.jpg>
-Package pdftex.def Info: ./Perceptron_nonlinear.jpg used on input line 80.
+Package pdftex.def Info: ./Perceptron_nonlinear.jpg used on input line 79.
+(pdftex.def)             Requested size: 192.72394pt x 144.54pt.
+
+<./LinearReg_i.jpg, id=2, 562.1pt x 421.575pt>
+File: ./LinearReg_i.jpg Graphic file (type jpg)
+ <use ./LinearReg_i.jpg>
+Package pdftex.def Info: ./LinearReg_i.jpg used on input line 90.
 (pdftex.def)             Requested size: 192.72394pt x 144.54pt.
  [1
 
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <F:/gonglixu
 e/curriculum/MachineLearning/Assignments/ML_Assignments/Assignment_2/Perceptron
-_nonlinear.jpg>]
+_nonlinear.jpg>] <./LinearReg_ii.jpg, id=11, 562.1pt x 421.575pt>
+File: ./LinearReg_ii.jpg Graphic file (type jpg)
+
+<use ./LinearReg_ii.jpg>
+Package pdftex.def Info: ./LinearReg_ii.jpg used on input line 96.
+(pdftex.def)             Requested size: 192.72394pt x 144.54pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 107.
+ <./Logistic_i.jpg, id=12, 562.1pt x 421.575pt>
+File: ./Logistic_i.jpg Graphic file (type jpg)
+
+<use ./Logistic_i.jpg>
+Package pdftex.def Info: ./Logistic_i.jpg used on input line 113.
+(pdftex.def)             Requested size: 192.72394pt x 144.54pt.
+ [2 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignm
+ent_2/LinearReg_i.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_
+Assignments/Assignment_2/LinearReg_ii.jpg>]
+<./Logistic_ii.jpg, id=18, 562.1pt x 421.575pt>
+File: ./Logistic_ii.jpg Graphic file (type jpg)
+ <use ./Logistic_ii.jpg>
+Package pdftex.def Info: ./Logistic_ii.jpg used on input line 119.
+(pdftex.def)             Requested size: 192.72394pt x 144.54pt.
+
+<./SVM_i.jpg, id=19, 562.1pt x 421.575pt>
+File: ./SVM_i.jpg Graphic file (type jpg)
+ <use ./SVM_i.jpg>
+Package pdftex.def Info: ./SVM_i.jpg used on input line 128.
+(pdftex.def)             Requested size: 192.72394pt x 144.54pt.
+
+<./SVM_ii.jpg, id=20, 562.1pt x 421.575pt>
+File: ./SVM_ii.jpg Graphic file (type jpg)
+ <use ./SVM_ii.jpg>
+Package pdftex.def Info: ./SVM_ii.jpg used on input line 134.
+(pdftex.def)             Requested size: 192.72394pt x 144.54pt.
+ [3 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignm
+ent_2/Logistic_i.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_A
+ssignments/Assignment_2/Logistic_ii.jpg> <F:/gonglixue/curriculum/MachineLearni
+ng/Assignments/ML_Assignments/Assignment_2/SVM_i.jpg>] [4 <F:/gonglixue/curricu
+lum/MachineLearning/Assignments/ML_Assignments/Assignment_2/SVM_ii.jpg>]
 (F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
 2\MyAns.aux) ) 
 Here is how much of TeX's memory you used:
- 3765 strings out of 495354
- 54644 string characters out of 3183858
- 117241 words of memory out of 3000000
- 6903 multiletter control sequences out of 15000+200000
- 9089 words of font info for 32 fonts, out of 3000000 for 9000
+ 3801 strings out of 495354
+ 55297 string characters out of 3183858
+ 118241 words of memory out of 3000000
+ 6932 multiletter control sequences out of 15000+200000
+ 10051 words of font info for 35 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,6n,43p,401b,182s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss1
-2.pfb>
-Output written on MyAns.pdf (1 page, 86624 bytes).
+ 44i,10n,43p,401b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/CTEX/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on MyAns.pdf (4 pages, 297037 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
