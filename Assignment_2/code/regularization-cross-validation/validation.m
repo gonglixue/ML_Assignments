@@ -94,13 +94,13 @@ end
 lambda
 
 w_with_reg = logistic_r(X, y, lambda);
-w_without_reg = logistic(X, y);
+w_without_reg = logistic_r(X, y, 0);
 
 %training error
 y_train_noreg = sigmoid(w_without_reg, [ones(1,N);X]');
-train_error_noreg = sum(y_train_noreg' ~= y)/N;
+train_error_noreg = sum(y_train_noreg' ~= y)/N
 y_train_reg = sigmoid(w_with_reg, [ones(1,N);X]');
-train_error_reg = sum(y_train_reg' ~= y)/N;
+train_error_reg = sum(y_train_reg' ~= y)/N
 
 load('digit_test', 'X_test', 'y_test');
 N_test = size(X_test, 2);
@@ -109,9 +109,9 @@ X_test = zscore(X_test, 0, 2);
 
 %testing error
 y_test_noreg = sigmoid(w_without_reg, [ones(1,N_test); X_test]');
-test_error_noreg = sum(y_test_noreg' ~= y_test)/N_test;
+test_error_noreg = sum(y_test_noreg' ~= y_test)/N_test
 y_test_reg = sigmoid(w_with_reg, [ones(1,N_test); X_test]');
-test_error_reg = sum(y_test_reg' ~= y_test)/N_test;
+test_error_reg = sum(y_test_reg' ~= y_test)/N_test
         
 
 %% SVM with slack variable

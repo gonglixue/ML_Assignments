@@ -17,7 +17,7 @@ w = rand(P+1, 1);
 h = 1 ./ (1+exp(-1*X_design*w));
 loss = (1/N) * (-1*y*log(h) - (1-y)*log(1-h)) + (lambda/(2*N)) * (w'*w);
 
-max_iter = 2000;
+max_iter = 3000;
 learning_rate = 0.08;
 for i=1:max_iter
     reg_term = [0; w(2:end)]; 
@@ -26,5 +26,5 @@ for i=1:max_iter
     w = w - (learning_rate/N)*(X_design'*(h-y') + lambda*reg_term);
     loss = (1/N) * (-1*y*log(h) - (1-y)*log(1-h)) + (lambda/(2*N)) * (w'*w);
 end
-fprintf('final loss: %f\n',loss);
+%fprintf('final loss: %f\n',loss);
 end
