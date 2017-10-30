@@ -17,8 +17,8 @@ a = zeros(N, P + 1);
 for i = 1:N
     a(i, :) = [y(i); y(i) * X(:, i)]';
 end
+
 [w,~,~,~,LAMBDA] = quadprog(H, zeros(P + 1, 1), -a, -ones(N, 1), [], [], [], [], [], optimset('Display', 'off'));
-% num = sum(LAMBDA.ineqlin > 1e-3);
 num = sum(abs(y .* (w' * [ones(1, size(X, 2)); X]) - 1) < 1e-3);
 
 
