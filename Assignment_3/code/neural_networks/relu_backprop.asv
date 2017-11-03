@@ -11,10 +11,9 @@ function [out_sensitivity] = relu_backprop(in_sensitivity, in)
 %                         ? f'
 % TODO
 [N, l1] = size(in_sensitivity);
-%out_sensitivity = zeros(N, l1);
+out_sensitivity = zeros(N, l1);
 
-out_sensitivity = in_sensitivity .* (in > 0);
-
+find_positive = in > 0
 
 end
 

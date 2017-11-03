@@ -24,10 +24,10 @@ function [weight_grad, bias_grad, out_sensitivity] = fullyconnect_backprop(in_se
 l2 = size(in_sensitivity, 2);
 
 weight_grad = -1 * in' * in_sensitivity ./ N;
-out_sensitivity = in_sensitivity * weight'; % f'?
+out_sensitivity = in_sensitivity * weight; % f'?
 
-net_bias_grad = ones(N, 1);
-bias_grad = -1 * in'* net_bias_grad ./ N;
+net_bias_grad = ones()
+bias_grad = -1 * in'
 
 end
 
