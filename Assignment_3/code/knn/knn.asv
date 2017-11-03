@@ -27,8 +27,11 @@ end
 first_k_index = index_sort(:, 1:K);
 first_k_label = y_train(first_k_index);
 
-% count the nums of label
-
+if K == 1
+    
+else
+    
+end
 
 end
 
