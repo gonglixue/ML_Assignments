@@ -10,12 +10,10 @@ function [out] = fullyconnect_feedforward(in,  weight, bias)
 
 % TODO
 
-num_of_l2_unit = size(weight, 2);  %下一层神经元数量
+% num_of_l2_unit = size(weight, 2);  %下一层神经元数量
 
 out = in * weight;
-out(:, 1:num_of_l2_unit) = out(:,1:num_of_l2_unit) + bias';
-
-
+out = out + repmat(bias', size(out,1), 1);
 
 end
 
