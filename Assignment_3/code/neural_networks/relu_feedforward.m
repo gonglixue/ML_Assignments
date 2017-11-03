@@ -8,4 +8,6 @@ function [ out ] = relu_feedforward( in )
 
 % TODO
 
+out = max(0, in);
+
 end

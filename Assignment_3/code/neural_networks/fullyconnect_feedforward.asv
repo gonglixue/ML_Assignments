@@ -10,10 +10,11 @@ function [out] = fullyconnect_feedforward(in,  weight, bias)
 
 % TODO
 
+[N, num_of_l1_unit] = size(int);
 num_of_l2_unit = size(weight, 2);  %下一层神经元数量
 
 out = in * weight;
-out(:, 1:num_of_l2_unit) = out(:,1:num_of_l2_unit) + bias';
+
 
 
 
