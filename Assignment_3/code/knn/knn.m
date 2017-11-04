@@ -28,10 +28,10 @@ first_k_index = index_sort(:, 1:K);
 first_k_label = y_train(first_k_index); % N_test* K
 
 % count the nums of label
-[hist_bar, out] = hist(first_k_label', 0:max(max(first_k_label))); %直方图bin是0~最大的label
+[hist_bar, hist_bin_label] = hist(first_k_label', 0:max(max(first_k_label))); %直方图bin是0~最大的label
 %hist_bar label_num * N_test
 [max_value max_index] = max(hist_bar);
-y = max_index;
+y = hist_bin_label(max_index)';
 
 end
 
