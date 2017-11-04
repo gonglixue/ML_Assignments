@@ -13,7 +13,7 @@ function y = knn(X, X_train, y_train, K)
 % calculat the distance between X and X_train
 N_test = size(X, 2);
 N_train = size(X_train, 2);
-distance = zeros(N_test, N_train);
+distance = zeros(N_test, N_train); % 每一行是一个测试样本的距离情况
 
 for i=1:N_train
     train_sample = X_train(:,i);
@@ -25,13 +25,12 @@ end
 [distance_sort, index_sort] = sort(distance, 2, 'ascend');
 
 first_k_index = index_sort(:, 1:K);
-first_k_label = y_train(first_k_index);
+first_k_label = y_train(first_k_index); % N_test* K
 
-if K == 1
-    
-else
-    
-end
+% count the nums of label
+[hist_bar, out] = hist(first_k_label');
+[max_value max_index] = max(hist_bar);
+y
 
 end
 
