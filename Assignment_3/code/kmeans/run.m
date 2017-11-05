@@ -28,3 +28,14 @@ end
 kmeans_plot(X, idx_min, ctrs_min, iter_ctrs_min)
 figure;
 kmeans_plot(X, idx_max, ctrs_max, iter_ctrs_max);
+
+%% (b)
+load('digit_data');
+K = [10, 20, 50];
+
+for i=1:length(K)
+    [idx, ctrs, iter_ctrs] = kmeans(X,K(i));
+    show_digit(ctrs);
+    figure;
+    %keams_plot(X, idx, ctrs, iter_ctrs);
+end
