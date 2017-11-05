@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  5 NOV 2017 13:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  5 NOV 2017 15:30
 entering extended mode
 **HW3_Report.tex
 
@@ -536,8 +536,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <F:/gonglixu
 e/curriculum/MachineLearning/Assignments/ML_Assignments/Assignment_3/knn_k1.jpg
 > <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignmen
-t_3/knn_k10.jpg>] [2 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_As
-signments/Assignment_3/knn_k100.jpg>]
+t_3/knn_k10.jpg>] <tree.png, id=14, 389.7762pt x 267.399pt>
+File: tree.png Graphic file (type png)
+ <use tree.png>
+Package pdftex.def Info: tree.png used on input line 104.
+(pdftex.def)             Requested size: 144.54pt x 99.16049pt.
+
+[2 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignme
+nt_3/knn_k100.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assi
+gnments/Assignment_3/tree.png>]
 (F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
 3\HW3_Report.aux)
 
@@ -545,10 +552,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3781 strings out of 495354
- 54839 string characters out of 3183858
- 117216 words of memory out of 3000000
- 6917 multiletter control sequences out of 15000+200000
+ 3788 strings out of 495354
+ 54908 string characters out of 3183858
+ 117212 words of memory out of 3000000
+ 6922 multiletter control sequences out of 15000+200000
  8797 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,10n,43p,222b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -557,9 +564,9 @@ ts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/CT
 EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/CTEX/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb>
-Output written on HW3_Report.pdf (2 pages, 185618 bytes).
+Output written on HW3_Report.pdf (2 pages, 212921 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

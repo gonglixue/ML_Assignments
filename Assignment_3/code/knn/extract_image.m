@@ -1,5 +1,6 @@
 function X = extract_image(image_file_name)
-%EXTRACT_IMAGE Extract features from image
+% EXTRACT_IMAGE Extract features from image
+% 分割图片，一张图片分割为140 * 5矩阵
 %   Inputs:
 %       image_file_name: filename of image
 %   Outputs:
