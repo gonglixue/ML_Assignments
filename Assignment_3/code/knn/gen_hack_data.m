@@ -2,7 +2,7 @@
 N_img = 100;
 N = N_img*5;
 image_matrix = []; % 140 by 250
-label_matrix = load('./hack_py/label_50img.txt'); % 50 by 5
+label_matrix = load('./hack_py/label_100img.txt'); % 50 by 5
 
 % parse label to 1 by (5*50)
 label_matrix = reshape(label_matrix',[1,N]); % 1 by 250

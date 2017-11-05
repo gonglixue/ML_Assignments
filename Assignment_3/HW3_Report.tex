@@ -49,6 +49,9 @@
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 
+\usepackage[colorlinks,linkcolor=red]{hyperref}
+
+
 %%% END Article customizations
 
 %%% The "real" document content comes below...
@@ -95,6 +98,34 @@ And for testing, $ loss = 2.522e-01 $, and $accuracy=0.9230$.
 One of methods is that choosing a proper K by Cross-Validation. Compute the validation error on validation set using different values for K. And pick the optimal K with the lowest validation error.
 
 (c)
+Firstly, I wrote a simple python script to fetch and save check code images from this \href{http://jwbinfosys.zju.edu.cn/default2.aspx}{website} automatically.(See Figure 4)
+
+\begin{figure}
+\centering
+\includegraphics[height=3in]{knn_spider.jpg}  %图片名
+\caption{images fetched by python spider}
+\label{fig4}
+\end{figure}
+
+And then, label these images by hand. I use 100 images of them. The raw labels are recored in file  $./knn/hack_py/label\_100img.txt$. Each row in this file means the actual codes that corresponding image represents.
+
+Before recognizing a check code image, we should generate a $.mat$ file which is used for training in knn. Run $gen\_hack\_data.m$ to generate a .mat file.
+Finally, we can test the algorithm to recognize a check code image(see $knn\_exp.m$ Part2).
+
+\begin{figure}
+\centering
+\includegraphics[width=2in]{knn_showimg.jpg}  %图片名
+\caption{show\_image}
+\label{fig5}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=2in]{knn_resultdigits.jpg}  %图片名
+\caption{result digits}
+\label{fig6}
+\end{figure}
+
 
 \section{Decision Tree and ID3}
 The decision tree and respective information gain is illustrated as the graph below:
@@ -106,6 +137,15 @@ The decision tree and respective information gain is illustrated as the graph be
 \label{fig4}
 \end{figure}
 
+\section{K-Means Clustering}
+
+
+
+
+
+
 \end{document}
 
-\section{K-Means Clustering}
+
+
+
