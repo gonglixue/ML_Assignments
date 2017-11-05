@@ -1,12 +1,13 @@
 function knn_plot(X, y, K)
+% X: 2 * (N1+N2)
 figure;
 ma = {'ko','ks'};
 fc = {[0 0 0],[1 1 1]};
-ty = unique(y);
+ty = unique(y); %不同的label
 
 for i = 1:length(ty)
     pos = find(y==ty(i));
-    plot(X(1, pos), X(2, pos), ma{i},'markerfacecolor', fc{i});
+    plot(X(1, pos), X(2, pos), ma{i},'markerfacecolor', fc{i}); %画出不同类别的散点
     hold on
 end
 

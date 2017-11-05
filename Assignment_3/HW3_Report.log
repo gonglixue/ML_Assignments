@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  3 NOV 2017 20:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  5 NOV 2017 13:46
 entering extended mode
 **HW3_Report.tex
 
@@ -509,28 +509,57 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 62.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 71.
- [1
+(Font)              <10.95> on input line 67.
+ <knn_k1.jpg, id=1, 562.1pt x 421.575pt>
+File: knn_k1.jpg Graphic file (type jpg)
+ <use knn_k1.jpg>
+Package pdftex.def Info: knn_k1.jpg used on input line 75.
+(pdftex.def)             Requested size: 144.54pt x 108.40399pt.
 
-{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
+<knn_k10.jpg, id=2, 562.1pt x 421.575pt>
+File: knn_k10.jpg Graphic file (type jpg)
+ <use knn_k10.jpg>
+Package pdftex.def Info: knn_k10.jpg used on input line 82.
+(pdftex.def)             Requested size: 144.54pt x 108.40399pt.
+
+<knn_k100.jpg, id=3, 562.1pt x 421.575pt>
+File: knn_k100.jpg Graphic file (type jpg)
+ <use knn_k100.jpg>
+Package pdftex.def Info: knn_k100.jpg used on input line 89.
+(pdftex.def)             Requested size: 144.54pt x 108.40399pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <F:/gonglixu
+e/curriculum/MachineLearning/Assignments/ML_Assignments/Assignment_3/knn_k1.jpg
+> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignmen
+t_3/knn_k10.jpg>] [2 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_As
+signments/Assignment_3/knn_k100.jpg>]
 (F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
-3\HW3_Report.aux) ) 
+3\HW3_Report.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3762 strings out of 495354
- 54597 string characters out of 3183858
- 116212 words of memory out of 3000000
- 6902 multiletter control sequences out of 15000+200000
- 9705 words of font info for 34 fonts, out of 3000000 for 9000
+ 3781 strings out of 495354
+ 54839 string characters out of 3183858
+ 117216 words of memory out of 3000000
+ 6917 multiletter control sequences out of 15000+200000
+ 8797 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,6n,43p,222b,182s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr17.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/CTEX/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on HW3_Report.pdf (1 page, 66768 bytes).
+ 44i,10n,43p,222b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb>
+Output written on HW3_Report.pdf (2 pages, 185618 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
