@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  5 NOV 2017 18:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  5 NOV 2017 20:44
 entering extended mode
 **HW3_Report.tex
 
@@ -546,6 +546,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 
 LaTeX Warning: Label `fig4' multiply defined.
 
+
+LaTeX Warning: Label `fig4' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -650,19 +653,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 70.
- <knn_k1.jpg, id=15, 562.1pt x 421.575pt>
+ <knn_k1.jpg, id=19, 562.1pt x 421.575pt>
 File: knn_k1.jpg Graphic file (type jpg)
  <use knn_k1.jpg>
 Package pdftex.def Info: knn_k1.jpg used on input line 78.
 (pdftex.def)             Requested size: 144.54pt x 108.40399pt.
 
-<knn_k10.jpg, id=16, 562.1pt x 421.575pt>
+<knn_k10.jpg, id=20, 562.1pt x 421.575pt>
 File: knn_k10.jpg Graphic file (type jpg)
  <use knn_k10.jpg>
 Package pdftex.def Info: knn_k10.jpg used on input line 85.
 (pdftex.def)             Requested size: 144.54pt x 108.40399pt.
 
-<knn_k100.jpg, id=17, 562.1pt x 421.575pt>
+<knn_k100.jpg, id=21, 562.1pt x 421.575pt>
 File: knn_k100.jpg Graphic file (type jpg)
  <use knn_k100.jpg>
 Package pdftex.def Info: knn_k100.jpg used on input line 92.
@@ -676,25 +679,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <F:/gonglixu
 e/curriculum/MachineLearning/Assignments/ML_Assignments/Assignment_3/knn_k1.jpg
 > <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignmen
-t_3/knn_k10.jpg>] <knn_spider.jpg, id=32, 409.53pt x 544.28343pt>
+t_3/knn_k10.jpg>] <knn_spider.jpg, id=36, 409.53pt x 544.28343pt>
 File: knn_spider.jpg Graphic file (type jpg)
 
 <use knn_spider.jpg>
 Package pdftex.def Info: knn_spider.jpg used on input line 105.
 (pdftex.def)             Requested size: 163.12796pt x 216.81pt.
- <knn_showimg.jpg, id=33, 562.1pt x 421.575pt>
+ <knn_showimg.jpg, id=37, 562.1pt x 421.575pt>
 File: knn_showimg.jpg Graphic file (type jpg)
 
 <use knn_showimg.jpg>
 Package pdftex.def Info: knn_showimg.jpg used on input line 117.
 (pdftex.def)             Requested size: 144.54pt x 108.40399pt.
- <knn_resultdigits.jpg, id=34, 505.89pt x 203.25937pt>
+ <knn_resultdigits.jpg, id=38, 505.89pt x 203.25937pt>
 File: knn_resultdigits.jpg Graphic file (type jpg)
 
 <use knn_resultdigits.jpg>
 Package pdftex.def Info: knn_resultdigits.jpg used on input line 124.
 (pdftex.def)             Requested size: 144.54pt x 58.07529pt.
- <tree.png, id=35, 389.7762pt x 267.399pt>
+ <tree.png, id=39, 389.7762pt x 267.399pt>
 File: tree.png Graphic file (type png)
 
 <use tree.png>
@@ -703,47 +706,54 @@ Package pdftex.def Info: tree.png used on input line 135.
  [2 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignm
 ent_3/knn_k100.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Ass
 ignments/Assignment_3/knn_spider.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+<kmeans_min.jpg, id=47, 562.1pt x 421.575pt>
+File: kmeans_min.jpg Graphic file (type jpg)
+ <use kmeans_min.jpg>
+Package pdftex.def Info: kmeans_min.jpg used on input line 144.
+(pdftex.def)             Requested size: 144.54pt x 108.40399pt.
  [3 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignm
 ent_3/knn_showimg.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_
 Assignments/Assignment_3/knn_resultdigits.jpg> <F:/gonglixue/curriculum/Machine
 Learning/Assignments/ML_Assignments/Assignment_3/tree.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+<kmeans_max.jpg, id=56, 562.1pt x 421.575pt>
+File: kmeans_max.jpg Graphic file (type jpg)
+ <use kmeans_max.jpg>
+Package pdftex.def Info: kmeans_max.jpg used on input line 154.
+(pdftex.def)             Requested size: 144.54pt x 108.40399pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+ [4 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignm
+ent_3/kmeans_min.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_A
+ssignments/Assignment_3/kmeans_max.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
 
 (F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
 3\HW3_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package rerunfilecheck Info: File `HW3_Report.out' has not changed.
+(rerunfilecheck)             Checksum: F90AE06641D8DD7427DD407926616A4D;217.
 
-
-Package rerunfilecheck Warning: File `HW3_Report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `HW3_Report.out':
-(rerunfilecheck)             Before: 762B862D9F46F6B7A11B73953AD79C24;163
-(rerunfilecheck)             After:  F90AE06641D8DD7427DD407926616A4D;217.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7427 strings out of 495354
- 110418 string characters out of 3183858
- 200978 words of memory out of 3000000
- 10500 multiletter control sequences out of 15000+200000
+ 7440 strings out of 495354
+ 110629 string characters out of 3183858
+ 200995 words of memory out of 3000000
+ 10509 multiletter control sequences out of 15000+200000
  8797 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,11n,43p,252b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,43p,252b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CT
 EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/CTEX/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmss12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on HW3_Report.pdf (3 pages, 403951 bytes).
+Output written on HW3_Report.pdf (4 pages, 470392 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 60 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 90 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

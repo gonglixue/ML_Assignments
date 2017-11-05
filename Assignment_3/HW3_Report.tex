@@ -110,7 +110,7 @@ Firstly, I wrote a simple python script to fetch and save check code images from
 And then, label these images by hand. I use 100 images of them. The raw labels are recored in file  $./knn/hack_py/label\_100img.txt$. Each row in this file means the actual codes that corresponding image represents.
 
 Before recognizing a check code image, we should generate a $.mat$ file which is used for training in knn. Run $gen\_hack\_data.m$ to generate a .mat file.
-Finally, we can test the algorithm to recognize a check code image(see $knn\_exp.m$ Part2).
+Finally, we can test the algorithm to recognize a check code image(see $knn\_exp.m$ Part2 and Figure 5).
 
 \begin{figure}
 \centering
@@ -139,9 +139,22 @@ The decision tree and respective information gain is illustrated as the graph be
 
 \section{K-Means Clustering}
 
+(a) The visualization of process with smallest SD:
+\begin{center}
+\includegraphics[width=2in]{kmeans_min.jpg}  %图片名
+
+Figure 5 kmeans process with smallest SD
+\end{center}
 
 
 
+The visualization of process with largest SD:
+\begin{figure}[h]
+\centering
+\includegraphics[width=2in]{kmeans_max.jpg}  %图片名
+\caption{kmeans process with largest SD}
+\label{fig4}
+\end{figure}
 
 
 \end{document}
