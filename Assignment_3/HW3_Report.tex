@@ -179,6 +179,39 @@ Figure 11: k=50
 Figure 12: k=50
 \end{center}
 
+
+(d)
+This is the original image:
+\begin{center}
+\includegraphics[width=2in]{aa_origin.jpg}  %图片名
+
+Figure 13: original image
+\end{center}
+
+
+And wen can obtain the compressed images after runing $vq.m$:
+
+\begin{center}
+\includegraphics[width=2in]{aa_8.jpg}  %图片名
+
+Figure 14: K = 8
+\end{center}
+
+\begin{center}
+\includegraphics[width=2in]{aa_16.jpg}  %图片名
+
+Figure 15: K = 16
+\end{center}
+
+\begin{center}
+\includegraphics[width=2in]{aa_32.jpg}  %图片名
+
+Figure 16: K = 32
+\end{center}
+
+We can observe that when we set K to 64, these is no obvious change comparing to original image. When K=64, each pixel can be represented with $log(K) = 8$ bits. So the data is not efficiently compressed actually.
+
+
 \end{document}
 
 

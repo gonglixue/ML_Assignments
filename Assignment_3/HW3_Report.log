@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  5 NOV 2017 21:17
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  5 NOV 2017 21:56
 entering extended mode
 **HW3_Report.tex
 
@@ -732,4 +732,67 @@ g/Assignments/ML_Assignments/Assignment_3/kmeans_k10.jpg> <F:/gonglixue/curricu
 lum/MachineLearning/Assignments/ML_Assignments/Assignment_3/kmeans_k20.jpg>]
 <kmeans_k50.jpg, id=63, 562.1pt x 421.575pt>
 File: kmeans_k50.jpg Graphic file (type jpg)
- <use kmeans_k5
+ <use kmeans_k50.jpg>
+Package pdftex.def Info: kmeans_k50.jpg used on input line 177.
+(pdftex.def)             Requested size: 144.54pt x 108.40399pt.
+
+<aa_origin.jpg, id=64, 754.82pt x 677.53125pt>
+File: aa_origin.jpg Graphic file (type jpg)
+ <use aa_origin.jpg>
+Package pdftex.def Info: aa_origin.jpg used on input line 186.
+(pdftex.def)             Requested size: 144.54pt x 129.73508pt.
+
+<aa_8.jpg, id=65, 754.82pt x 677.53125pt>
+File: aa_8.jpg Graphic file (type jpg)
+ <use aa_8.jpg>
+Package pdftex.def Info: aa_8.jpg used on input line 195.
+(pdftex.def)             Requested size: 144.54pt x 129.73508pt.
+
+<aa_16.jpg, id=66, 754.82pt x 677.53125pt>
+File: aa_16.jpg Graphic file (type jpg)
+ <use aa_16.jpg>
+Package pdftex.def Info: aa_16.jpg used on input line 201.
+(pdftex.def)             Requested size: 144.54pt x 129.73508pt.
+ [5 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignm
+ent_3/kmeans_k50.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_A
+ssignments/Assignment_3/aa_origin.jpg> <F:/gonglixue/curriculum/MachineLearning
+/Assignments/ML_Assignments/Assignment_3/aa_8.jpg>] <aa_32.jpg, id=71, 754.82pt
+ x 677.53125pt>
+File: aa_32.jpg Graphic file (type jpg)
+
+<use aa_32.jpg>
+Package pdftex.def Info: aa_32.jpg used on input line 207.
+(pdftex.def)             Requested size: 144.54pt x 129.73508pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+ [6 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignm
+ent_3/aa_16.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assign
+ments/Assignment_3/aa_32.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+
+(F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
+3\HW3_Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package rerunfilecheck Info: File `HW3_Report.out' has not changed.
+(rerunfilecheck)             Checksum: F90AE06641D8DD7427DD407926616A4D;217.
+ ) 
+Here is how much of TeX's memory you used:
+ 7477 strings out of 495354
+ 111169 string characters out of 3183858
+ 201002 words of memory out of 3000000
+ 10538 multiletter control sequences out of 15000+200000
+ 8797 words of font info for 31 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 44i,12n,43p,252b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmss12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb>
+Output written on HW3_Report.pdf (6 pages, 889674 bytes).
+PDF statistics:
+ 104 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+
