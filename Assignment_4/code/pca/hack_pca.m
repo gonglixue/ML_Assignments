@@ -3,6 +3,7 @@ function img = hack_pca(filename)
 % Output: img -- image without rotation
 
 img_r = double(imread(filename));
+[eigvector, eigvalue] = PCA(img_r);
 
 % YOUR CODE HERE
 
