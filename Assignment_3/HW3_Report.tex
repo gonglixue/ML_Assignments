@@ -107,7 +107,7 @@ Firstly, I wrote a simple python script to fetch and save check code images from
 \label{fig4}
 \end{figure}
 
-And then, label these images by hand. I use 100 images of them. The raw labels are recored in file  $./knn/hack_py/label\_100img.txt$. Each row in this file means the actual codes that corresponding image represents.
+And then, label these images by hand. I use 100 images of them. The raw labels are recorded in file  $./knn/hack\_py/label\_100img.txt$. Each row in this file means the actual codes that corresponding image represents.
 
 Before recognizing a check code image, we should generate a $.mat$ file which is used for training in knn. Run $gen\_hack\_data.m$ to generate a .mat file.
 Finally, we can test the algorithm to recognize a check code image(see $knn\_exp.m$ Part2 and Figure 5).
