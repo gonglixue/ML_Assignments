@@ -79,6 +79,17 @@
 \label{fig1}
 \end{figure}
 
+(b) Set the options as below to construct weight matrix:
+options.NeighborMode = 'Supervised'
+options.gnd = gnd
+options.bLDA = 1;
+
+And after 100 iterations:
+accuracy of spectral clustering: 0.84
+accuracy of kmeans: 0.42
+mutual info of spectral clustering: 0.638
+mutual info of kmeans: 0.297699
+
 \subsection{Principal Component Analysis}
 
 More text.
