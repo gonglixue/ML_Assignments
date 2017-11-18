@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  17 NOV 2017 14:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.10.11)  18 NOV 2017 21:48
 entering extended mode
 **hw4_report.tex
 
@@ -437,7 +437,38 @@ Package tocloft Info: The document has section divisions on input line 43.
 \cftsubtabnumwidth=\skip99
 )
 (F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
-4\hw4_report.aux)
+4\hw4_report.aux
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
@@ -519,32 +550,120 @@ File: kmeans.jpg Graphic file (type jpg)
  <use kmeans.jpg>
 Package pdftex.def Info: kmeans.jpg used on input line 77.
 (pdftex.def)             Requested size: 144.54pt x 108.40399pt.
+
+<3.jpg, id=3, 45.16875pt x 45.16875pt>
+File: 3.jpg Graphic file (type jpg)
+ <use 3.jpg>
+Package pdftex.def Info: 3.jpg used on input line 103.
+(pdftex.def)             Requested size: 72.26999pt x 72.27696pt.
  [1
 
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <F:/gonglixu
 e/curriculum/MachineLearning/Assignments/ML_Assignments/Assignment_4/spectral_c
 luster.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments
-/Assignment_4/kmeans.jpg>]
+/Assignment_4/kmeans.jpg>] <recover3.jpg, id=12, 257.96375pt x 180.675pt>
+File: recover3.jpg Graphic file (type jpg)
+ <use recover3.jpg>
+Package pdftex.def Info: recover3.jpg used on input line 112.
+(pdftex.def)             Requested size: 144.54pt x 101.23795pt.
+
+<eigenface.jpg, id=13, 331.99031pt x 34.62938pt>
+File: eigenface.jpg Graphic file (type jpg)
+ <use eigenface.jpg>
+Package pdftex.def Info: eigenface.jpg used on input line 122.
+(pdftex.def)             Requested size: 144.54pt x 15.07686pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 133.
+
+Underfull \hbox (badness 10000) in alignment at lines 133--143
+[][][]
+ []
+
+<originface.jpg, id=14, 329.73187pt x 33.12375pt>
+File: originface.jpg Graphic file (type jpg)
+ <use originface.jpg>
+Package pdftex.def Info: originface.jpg used on input line 149.
+(pdftex.def)             Requested size: 361.34999pt x 36.30127pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<recover8.jpg, id=15, 332.74312pt x 33.87656pt>
+File: recover8.jpg Graphic file (type jpg)
+ <use recover8.jpg>
+Package pdftex.def Info: recover8.jpg used on input line 158.
+(pdftex.def)             Requested size: 361.34999pt x 36.79134pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<recover16.jpg, id=16, 331.99031pt x 36.135pt>
+File: recover16.jpg Graphic file (type jpg)
+ <use recover16.jpg>
+Package pdftex.def Info: recover16.jpg used on input line 165.
+(pdftex.def)             Requested size: 361.34999pt x 39.33286pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<recover32.jpg, id=17, 331.99031pt x 36.88782pt>
+File: recover32.jpg Graphic file (type jpg)
+ <use recover32.jpg>
+Package pdftex.def Info: recover32.jpg used on input line 172.
+(pdftex.def)             Requested size: 361.34999pt x 40.1523pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<recover64.jpg, id=18, 331.2375pt x 35.38219pt>
+File: recover64.jpg Graphic file (type jpg)
+ <use recover64.jpg>
+Package pdftex.def Info: recover64.jpg used on input line 179.
+(pdftex.def)             Requested size: 361.34999pt x 38.60036pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<recoverface.jpg, id=19, 331.2375pt x 36.135pt>
+File: recoverface.jpg Graphic file (type jpg)
+ <use recoverface.jpg>
+Package pdftex.def Info: recoverface.jpg used on input line 186.
+(pdftex.def)             Requested size: 361.34999pt x 39.42163pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignme
+nt_4/3.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments
+/Assignment_4/recover3.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignment
+s/ML_Assignments/Assignment_4/eigenface.jpg>] [3 <F:/gonglixue/curriculum/Machi
+neLearning/Assignments/ML_Assignments/Assignment_4/originface.jpg> <F:/gonglixu
+e/curriculum/MachineLearning/Assignments/ML_Assignments/Assignment_4/recover8.j
+pg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_Assignments/Assignm
+ent_4/recover16.jpg> <F:/gonglixue/curriculum/MachineLearning/Assignments/ML_As
+signments/Assignment_4/recover32.jpg> <F:/gonglixue/curriculum/MachineLearning/
+Assignments/ML_Assignments/Assignment_4/recover64.jpg> <F:/gonglixue/curriculum
+/MachineLearning/Assignments/ML_Assignments/Assignment_4/recoverface.jpg>]
 (F:\gonglixue\curriculum\MachineLearning\Assignments\ML_Assignments\Assignment_
 4\hw4_report.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3774 strings out of 495354
- 54785 string characters out of 3183858
- 117221 words of memory out of 3000000
- 6911 multiletter control sequences out of 15000+200000
- 9089 words of font info for 32 fonts, out of 3000000 for 9000
+ 3821 strings out of 495354
+ 55537 string characters out of 3183858
+ 120265 words of memory out of 3000000
+ 6949 multiletter control sequences out of 15000+200000
+ 8797 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,6n,43p,222b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,10n,43p,222b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmr17.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-Output written on hw4_report.pdf (1 page, 139867 bytes).
+Output written on hw4_report.pdf (3 pages, 393075 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

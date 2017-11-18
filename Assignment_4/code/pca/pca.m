@@ -1,4 +1,4 @@
-function [eigvector, eigvalue] = PCA(data)
+function [eigvector, eigvalue] = pca(data, k)
 %PCA	Principal Component Analysis
 %
 %             Input:
@@ -8,19 +8,17 @@ function [eigvector, eigvalue] = PCA(data)
 %               eigvector - Each column is an embedding function, for a new
 %                           data point (row vector) x,  y = x*eigvector
 %                           will be the embedding result of x.
-%               eigvalue  - The sorted eigvalue of PCA eigen-problem. 1 by
-%               k
+%               eigvalue  - The sorted eigvalue of PCA eigen-problem.
 %
 
-% YOUR CODE HERE
 [N, P] = size(data);
 centered_data = data - repmat(mean(data), N, 1);
 S = centered_data' * centered_data;
-[eigvector, eigvalue] = eigs(S);
+[eigvector, eigvalue] = eigs(S, k, 'LM');
 
 eigvalue = diag(eigvalue)';
 % sort
-[sort_eigvalue, sort_eigvalue_i] = sort(eigvalue, 2, 'descend');
-eigvector = eigvector(:, sort_eigvalue_i);
+%[sort_eigvalue, sort_eigvalue_i] = sort(eigvalue, 2, 'descend');
+%eigvector = eigvector(:, sort_eigvalue_i);
 
 end

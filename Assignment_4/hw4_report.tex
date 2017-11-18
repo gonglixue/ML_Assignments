@@ -85,14 +85,112 @@ options.gnd = gnd
 options.bLDA = 1;
 
 And after 100 iterations:
+
 accuracy of spectral clustering: 0.84
+
 accuracy of kmeans: 0.42
+
 mutual info of spectral clustering: 0.638
+
 mutual info of kmeans: 0.297699
 
-\subsection{Principal Component Analysis}
+\section{Principal Component Analysis}
 .
-(a) 
+(a)  The original image is as below:
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1in]{3.jpg}  %图片名
+\caption{rotated image}
+\label{fig1}
+\end{figure}
+
+After recovery by PCA:
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=2in]{recover3.jpg}  %图片名
+\caption{recovered image}
+\label{fig1}
+\end{figure}
+
+(b)
+(i)  The learnt eigenvectors are visualized as below (take the eigenvectors corresponding to 128 largest eigenvalues):
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=2in]{eigenface.jpg}  %图片名
+\caption{visulaization of learnt eigenvectors}
+\label{fig1}
+\end{figure}
+
+
+(ii) The tesing error rate are illustrated as Table 1.
+
+\begin{table}  
+\centering
+\caption{Error Rate (with k=1 in knn)}  
+\begin{tabular*}{12cm}{lll}  
+\hline  
+Reduced Dimensionality & Error Rate \\  
+\hline  
+8  & 0.245  \\  
+16  & 0.200  \\  
+32 & 0.180 \\
+64 & 0.15 \\
+128 & 0.15 \\
+\hline  
+\end{tabular*}  
+\end{table}  
+
+(iii) The original image is visualized as Figure 6.\\
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{originface.jpg}  %图片名
+\caption{original face images}
+\label{fig1}
+\end{figure}
+
+The recovered images with different reduced dimensions are illustrated as Figure 7-11. And we can see that there exits information loss.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{recover8.jpg}  %图片名
+\caption{the recovered faces with reduced dimension=8}
+\label{fig1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{recover16.jpg}  %图片名
+\caption{the recovered faces with reduced dimension=16}
+\label{fig1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{recover32.jpg}  %图片名
+\caption{the recovered faces with reduced dimension=32}
+\label{fig1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{recover64.jpg}  %图片名
+\caption{the recovered faces with reduced dimension=64}
+\label{fig1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{recoverface.jpg}  %图片名
+\caption{the recovered faces with reduced dimension=128}
+\label{fig1}
+\end{figure}
+
+
+
+
 
 
 \end{document}
